@@ -1,0 +1,86 @@
+@media screen and (max-width: 768px) {
+  /* line 6, media-queries.scss */
+  .navbar .container-fluid {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+
+  /* line 11, media-queries.scss */
+  .promo {
+    left: 20% !important; }
+
+  /* line 17, media-queries.scss */
+  .main-container .main .cols {
+    gap: 40px !important; }
+  /* line 24, media-queries.scss */
+  .main-container .about .about-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  /* line 29, media-queries.scss */
+  .main-container .menu-item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    /* line 32, media-queries.scss */
+    .main-container .menu-item img {
+      width: 100% !important; }
+    /* line 36, media-queries.scss */
+    .main-container .menu-item .menu-info {
+      width: 90% !important; } }
+@media screen and (max-width: 425px) {
+  /* line 47, media-queries.scss */
+  .top-section .promo {
+    top: 55% !important;
+    left: 10% !important; }
+  /* line 52, media-queries.scss */
+  .top-section .down-icon {
+    bottom: 40px; }
+
+  /* line 57, media-queries.scss */
+  .main-container {
+    margin-top: 60%; }
+    /* line 60, media-queries.scss */
+    .main-container .column {
+      width: 90%; }
+    /* line 66, media-queries.scss */
+    .main-container .about-content img,
+    .main-container .about-content .about-text {
+      width: 95% !important;
+      height: auto !important;
+      text-align: center; }
+    /* line 74, media-queries.scss */
+    .main-container .other-container {
+      padding: 10px; }
+      /* line 77, media-queries.scss */
+      .main-container .other-container .menu-item {
+        width: 100% !important; }
+      /* line 81, media-queries.scss */
+      .main-container .other-container .fields {
+        grid-template-columns: none !important;
+        grid-template-rows: 1fr 1fr; }
+      /* line 87, media-queries.scss */
+      .main-container .other-container .event button, .main-container .other-container .promo button {
+        margin-top: 10px; }
+
+  /* line 96, media-queries.scss */
+  footer .col2 {
+    gap: 30px; } }
+@media screen and (max-width: 320px) {
+  /* line 106, media-queries.scss */
+  .top-section .promo {
+    left: 5% !important; }
+  /* line 110, media-queries.scss */
+  .top-section .down-icon {
+    bottom: 20px; }
+
+  /* line 115, media-queries.scss */
+  .main-container {
+    margin-top: 80%; }
+    /* line 118, media-queries.scss */
+    .main-container .column {
+      width: 80%; } }
+
+/*# sourceMappingURL=media-queries.css.map */

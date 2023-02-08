@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Andika&family=Roboto+Slab&family=Itim&display=swap");
+/* line 3, main.scss */
+.main-container {
+  margin-top: 40%; }
+  /* line 6, main.scss */
+  .main-container .main {
+    color: #e9e9e9; }
+    /* line 9, main.scss */
+    .main-container .main .cols {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      gap: 60px; }
+      /* line 13, main.scss */
+      .main-container .main .cols .column {
+        text-align: center;
+        padding: 15px;
+        border: 5px solid #F17300;
+        -webkit-transition: 0.3s ease;
+        transition: 0.3s ease; }
+        /* line 19, main.scss */
+        .main-container .main .cols .column:hover {
+          -webkit-transform: translateY(-20px);
+                  transform: translateY(-20px); }
+        /* line 23, main.scss */
+        .main-container .main .cols .column .icon {
+          margin-bottom: 15px; }
+          /* line 26, main.scss */
+          .main-container .main .cols .column .icon img {
+            width: 100px; }
+        /* line 31, main.scss */
+        .main-container .main .cols .column .rotate {
+          -webkit-transform: rotate(5deg);
+                  transform: rotate(5deg); }
+        /* line 35, main.scss */
+        .main-container .main .cols .column .rotate-reverse {
+          -webkit-transform: rotate(-5deg);
+                  transform: rotate(-5deg); }
+  /* line 42, main.scss */
+  .main-container .about {
+    margin: 30px 0px;
+    text-align: center; }
+    /* line 46, main.scss */
+    .main-container .about .header {
+      text-transform: uppercase;
+      margin-bottom: 20px; }
+    /* line 51, main.scss */
+    .main-container .about .about-content {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      gap: 20px;
+      width: 90%;
+      margin: auto; }
+      /* line 56, main.scss */
+      .main-container .about .about-content .about-text {
+        text-align: left; }
+      /* line 60, main.scss */
+      .main-container .about .about-content img {
+        width: auto;
+        height: 270px;
+        border: 2px solid #F17300; }
+  /* line 68, main.scss */
+  .main-container .other-container {
+    width: 900px;
+    background-color: #412010;
+    padding: 30px;
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+    border: 3px solid #F17300;
+    margin: 10px;
+    text-align: center;
+    color: #e9e9e9; }
+    /* line 78, main.scss */
+    .main-container .other-container .menu-items {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      gap: 50px;
+      margin-top: 2em; }
+      /* line 82, main.scss */
+      .main-container .other-container .menu-items .menu-item {
+        -webkit-box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.1);
+                box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.1);
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        width: 85%;
+        border: 2px solid #412010;
+        background-color: #331A0D; }
+        /* line 89, main.scss */
+        .main-container .other-container .menu-items .menu-item img {
+          width: 50%;
+          -o-object-fit: cover;
+             object-fit: cover;
+          padding: 0; }
+        /* line 95, main.scss */
+        .main-container .other-container .menu-items .menu-item .menu-info {
+          padding: 20px;
+          margin: auto; }
+          /* line 99, main.scss */
+          .main-container .other-container .menu-items .menu-item .menu-info h1 {
+            color: #F17300;
+            margin-bottom: 10px; }
+  /* line 108, main.scss */
+  .main-container .contact {
+    width: 800px; }
+    /* line 111, main.scss */
+    .main-container .contact .contact-container {
+      background-color: #331A0D;
+      padding: 20px; }
+      /* line 115, main.scss */
+      .main-container .contact .contact-container .contact-info {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        gap: 30px;
+        border-bottom: 3px solid #F17300;
+        padding-bottom: 20px; }
+        /* line 120, main.scss */
+        .main-container .contact .contact-container .contact-info .address,
+        .main-container .contact .contact-container .contact-info .phone {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: row;
+                  flex-direction: row;
+          gap: 20px; }
+          /* line 124, main.scss */
+          .main-container .contact .contact-container .contact-info .address i,
+          .main-container .contact .contact-container .contact-info .phone i {
+            font-size: 2.2em; }
+      /* line 130, main.scss */
+      .main-container .contact .contact-container form {
+        padding-top: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        gap: 30px; }
+        /* line 138, main.scss */
+        .main-container .contact .contact-container form .fields {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 20px;
+          width: 100%; }
+        /* line 145, main.scss */
+        .main-container .contact .contact-container form .inputs {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: justify;
+              -ms-flex-pack: justify;
+                  justify-content: space-between;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          gap: 0px; }
+        /* line 149, main.scss */
+        .main-container .contact .contact-container form .form-group {
+          width: 100%;
+          display: grid;
+          place-items: center; }
+          /* line 154, main.scss */
+          .main-container .contact .contact-container form .form-group input,
+          .main-container .contact .contact-container form .form-group textarea {
+            width: 100%;
+            padding: 0.5em 0.7em;
+            border-radius: 10px;
+            border: none;
+            background-color: #331A0D;
+            border: 2px solid #F17300;
+            outline: none;
+            color: #e9e9e9; }
+            /* line 165, main.scss */
+            .main-container .contact .contact-container form .form-group input::-webkit-outer-spin-button, .main-container .contact .contact-container form .form-group input::-webkit-inner-spin-button,
+            .main-container .contact .contact-container form .form-group textarea::-webkit-outer-spin-button,
+            .main-container .contact .contact-container form .form-group textarea::-webkit-inner-spin-button {
+              -webkit-appearance: none;
+              margin: 0; }
+            /* line 171, main.scss */
+            .main-container .contact .contact-container form .form-group input::-webkit-input-placeholder,
+            .main-container .contact .contact-container form .form-group textarea::-webkit-input-placeholder {
+              color: #525252; }
+            .main-container .contact .contact-container form .form-group input:-ms-input-placeholder,
+            .main-container .contact .contact-container form .form-group textarea:-ms-input-placeholder {
+              color: #525252; }
+            .main-container .contact .contact-container form .form-group input::-ms-input-placeholder,
+            .main-container .contact .contact-container form .form-group textarea::-ms-input-placeholder {
+              color: #525252; }
+            .main-container .contact .contact-container form .form-group input::placeholder,
+            .main-container .contact .contact-container form .form-group textarea::placeholder {
+              color: #525252; }
+            /* line 175, main.scss */
+            .main-container .contact .contact-container form .form-group input:focus,
+            .main-container .contact .contact-container form .form-group textarea:focus {
+              border-color: #ff7a00; }
+          /* line 180, main.scss */
+          .main-container .contact .contact-container form .form-group textarea {
+            resize: vertical;
+            height: 170px; }
+  /* line 189, main.scss */
+  .main-container .events-container {
+    text-align: left; }
+    /* line 192, main.scss */
+    .main-container .events-container .header {
+      margin-bottom: 1em; }
+    /* line 196, main.scss */
+    .main-container .events-container .head {
+      border-bottom: 3px solid #F17300;
+      padding-bottom: 10px; }
+    /* line 201, main.scss */
+    .main-container .events-container .promo, .main-container .events-container .event {
+      margin: 10px; }
+      /* line 204, main.scss */
+      .main-container .events-container .promo button, .main-container .events-container .event button {
+        margin-left: 2em; }
+
+/* line 211, main.scss */
+#menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px 0px; }
+
+/* line 218, main.scss */
+.menu-body {
+  background-color: #763c1e; }
+
+/* line 222, main.scss */
+footer {
+  background-color: #412010;
+  padding: 30px;
+  color: #e9e9e9; }
+  /* line 227, main.scss */
+  footer .logo {
+    margin-bottom: 2em; }
+    /* line 228, main.scss */
+    footer .logo img {
+      width: 120px; }
+  /* line 235, main.scss */
+  footer a {
+    text-decoration: none;
+    color: #e9e9e9; }
+    /* line 239, main.scss */
+    footer a:hover {
+      text-decoration: underline;
+      color: #e9e9e9; }
+  /* line 245, main.scss */
+  footer .col2 {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  /* line 249, main.scss */
+  footer .privacy {
+    margin-left: 1em; }
+  /* line 253, main.scss */
+  footer .socials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    /* line 258, main.scss */
+    footer .socials i:hover {
+      opacity: 0.7;
+      color: #e9e9e9; }
+
+/*# sourceMappingURL=main.css.map */

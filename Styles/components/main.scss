@@ -1,0 +1,263 @@
+@import '../base/variables';
+
+.main-container {
+	margin-top: 40%;
+
+	.main {
+		color: #e9e9e9;
+
+		.cols {
+			justify-content: center;
+			gap: 60px;
+
+			.column {
+				text-align: center;
+				padding: 15px;
+				border: 5px solid $bright-color;
+				transition: 0.3s ease;
+
+				&:hover {
+					transform: translateY(-20px);
+				}
+
+				.icon {
+					margin-bottom: 15px;
+
+					img {
+						width: 100px;
+					}
+				}
+
+				.rotate {
+					transform: rotate(5deg);
+				}
+
+				.rotate-reverse {
+					transform: rotate(-5deg);
+				}
+			}
+		}
+	}
+
+	.about {
+		margin: 30px 0px;
+		text-align: center;
+
+		.header {
+			text-transform: uppercase;
+			margin-bottom: 20px;
+		}
+
+		.about-content {
+			@include flex (center, center, row, 20px);
+			width: 90%;
+			margin: auto;
+
+			.about-text {
+				text-align: left;
+			}
+
+			img {
+				width: auto;
+				height: 270px;
+				border: 2px solid $bright-color;
+			}
+		}
+	}
+
+	.other-container {
+		width: 900px;
+		background-color: $dark-color;
+		padding: 30px;
+		box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+		border: 3px solid $bright-color;
+		margin: 10px;
+		text-align: center;
+		color: #e9e9e9;
+
+		.menu-items {
+			@include flex (center, center, column, 50px);
+			margin-top: 2em;
+
+			.menu-item {
+				box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.1);
+				justify-content: space-between;
+				width: 85%;
+				border: 2px solid $dark-color;
+				background-color: $darker-color;
+
+				img {
+					width: 50%;
+					object-fit: cover;
+					padding: 0;
+				}
+
+				.menu-info {
+					padding: 20px;
+					margin: auto;
+
+					h1 {
+						color: $bright-color;
+						margin-bottom: 10px;
+					}
+				}
+			}
+		}
+	}
+
+	.contact {
+		width: 800px;
+
+		.contact-container {
+			background-color: $darker-color;
+			padding: 20px;
+
+			.contact-info {
+				@include flex (center, start, column, 30px);
+				border-bottom: 3px solid $bright-color;
+				padding-bottom: 20px;
+
+				.address,
+				.phone {
+					@include flex (center, center, row, 20px);
+
+					i {
+						font-size: 2.2em;
+					}
+				}
+			}
+
+			form {
+				padding-top: 20px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+				gap: 30px;
+
+				.fields {
+					display: grid;
+					grid-template-columns: 1fr 1fr;
+					grid-gap: 20px;
+					width: 100%;
+				}
+
+				.inputs {
+					@include flex (space-between, center, column, 0px);
+				}
+
+				.form-group {
+					width: 100%;
+					display: grid;
+					place-items: center;
+
+					input,
+					textarea {
+						width: 100%;
+						padding: 0.5em 0.7em;
+						border-radius: 10px;
+						border: none;
+						background-color: $darker-color;
+						border: 2px solid $bright-color;
+						outline: none;
+						color: #e9e9e9;
+
+						&::-webkit-outer-spin-button,
+						&::-webkit-inner-spin-button {
+							-webkit-appearance: none;
+							margin: 0;
+						}
+
+						&::placeholder {
+							color: #525252;
+						}
+
+						&:focus {
+							border-color: #ff7a00;
+						}
+					}
+
+					textarea {
+						resize: vertical;
+						height: 170px;
+					}
+				}
+			}
+		}
+	}
+	
+	.events-container {
+		text-align: left;
+		
+		.header {
+			margin-bottom: 1em;
+		}
+		
+		.head {
+			border-bottom: 3px solid $bright-color;
+			padding-bottom: 10px;
+		}
+		
+		.promo, .event {
+			margin: 10px;
+			
+			button {
+				margin-left: 2em;
+			}
+		}
+	}
+}
+
+#menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 30px 0px;
+}
+
+.menu-body {
+	background-color: #763c1e;
+}
+
+footer {
+	background-color: $dark-color;
+	padding: 30px;
+	color: #e9e9e9;
+
+	.logo {
+		img {
+			width: 120px;
+		}
+
+		margin-bottom: 2em;
+	}
+
+	a {
+		text-decoration: none;
+		color: #e9e9e9;
+
+		&:hover {
+			text-decoration: underline;
+			color: #e9e9e9;
+		}
+	}
+
+	.col2 {
+		justify-content: space-between;
+	}
+
+	.privacy {
+		margin-left: 1em;
+	}
+
+	.socials {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+
+		i:hover {
+			opacity: 0.7;
+			color: #e9e9e9;
+		}
+	}
+}

@@ -1,0 +1,122 @@
+// For Tablets
+
+@media screen and (max-width: 768px) {
+	.navbar {
+
+		.container-fluid {
+			align-items: flex-start;
+		}
+	}
+
+	.promo {
+		left: 20% !important;
+	}
+
+	.main-container {
+		.main {
+			.cols {
+				gap: 40px !important;
+			}
+		}
+
+		.about {
+
+			.about-content {
+				flex-direction: column;
+			}
+		}
+
+		.menu-item {
+			flex-direction: column;
+
+			img {
+				width: 100% !important;
+			}
+
+			.menu-info {
+				width: 90% !important;
+			}
+		}
+	}
+}
+
+// For Mobile L
+
+@media screen and (max-width: 425px) {
+	.top-section {
+		.promo {
+			top: 55% !important;
+			left: 10% !important;
+		}
+
+		.down-icon {
+			bottom: 40px;
+		}
+	}
+
+	.main-container {
+		margin-top: 60%;
+
+		.column {
+			width: 90%;
+		}
+
+		.about-content {
+
+			img,
+			.about-text {
+				width: 95% !important;
+				height: auto !important;
+				text-align: center;
+			}
+		}
+
+		.other-container {
+			padding: 10px;
+			
+			.menu-item {
+				width: 100% !important;
+			}
+			
+			.fields {
+				grid-template-columns: none !important;
+				grid-template-rows: 1fr 1fr;
+			}
+			
+			.event, .promo {
+				button {
+					margin-top: 10px;
+				}
+			}
+		}
+	}
+
+	footer {
+
+		.col2 {
+			gap: 30px;
+		}
+	}
+}
+
+// For Mobile M
+
+@media screen and (max-width: 320px) {
+	.top-section {
+		.promo {
+			left: 5% !important;
+		}
+
+		.down-icon {
+			bottom: 20px;
+		}
+	}
+
+	.main-container {
+		margin-top: 80%;
+
+		.column {
+			width: 80%;
+		}
+	}
+}

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Roboto+Slab&family=Itim&display=swap');
+
+// Font Families
+
+$body-font-family: 'Andika', sans-serif;
+$heading-font-family: 'Roboto Slab', sans-serif;
+$promo-font-family: 'Itim', cursive;
+
+// Palette
+
+$bright-color: #F17300;
+$dark-color: #412010;
+$darker-color: #331A0D;
+
+// Mixins
+
+@mixin flex ($justify, $align, $direction, $gap) {
+	display: flex;
+	justify-content: $justify;
+	align-items: $align;
+	flex-direction: $direction;
+	gap: $gap;
+}

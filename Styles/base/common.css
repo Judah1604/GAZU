@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Andika&family=Roboto+Slab&family=Itim&display=swap");
+/* line 3, common.scss */
+body {
+  font-family: "Andika", sans-serif;
+  background-color: #331A0D;
+  overflow-x: hidden; }
+
+/* line 9, common.scss */
+.index {
+  overflow-y: hidden; }
+
+/* line 13, common.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Slab", sans-serif; }
+
+/* line 22, common.scss */
+.overflow {
+  overflow-y: visible !important; }
+
+/* line 27, common.scss */
+.logo img {
+  width: 100px;
+  height: auto; }
+
+/*# sourceMappingURL=common.css.map */
